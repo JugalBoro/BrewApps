@@ -4,15 +4,15 @@ This Node.js application provides a RESTful API for managing books. It allows yo
 
 ## API Endpoints and Their Usage
 
-- **POST:  https://brewapps-cicd.onrender.com/book/postBook**: Create a new book. Send a JSON object in the request body with the book's title, author, and summary.
+- **POST:  https://brewapps-cicd.onrender.com/book/postBook**  : Create a new book. Send a JSON object in the request body with the book's title, author, and summary.
 
-- **GET:  https://brewapps-cicd.onrender.com/book/getAllBooksDetails**: Retrieve a list of all books.
+- **GET:  https://brewapps-cicd.onrender.com/book/getAllBooksDetails**  : Retrieve a list of all books.
 
-- **GET:   https://brewapps-cicd.onrender.com/book/getBookByID/:id**: Retrieve details of a specific book by providing its unique ID in the URL.
+- **GET:   https://brewapps-cicd.onrender.com/book/getBookByID/:id**  : Retrieve details of a specific book by providing its unique ID in the URL.
 
-- **PUT: https://brewapps-cicd.onrender.com/book/updateBookByID/:id**: Update a book's details by providing its ID in the URL and sending a JSON object with the updated data in the request body.
+- **PUT: https://brewapps-cicd.onrender.com/book/updateBookByID/:id**  : Update a book's details by providing its ID in the URL and sending a JSON object with the updated data in the request body.
 
-- **DELETE: https://brewapps-cicd.onrender.com/book/deleteBookByID/:id**: Delete a book by providing its ID in the URL.
+- **DELETE: https://brewapps-cicd.onrender.com/book/deleteBookByID/:id**  : Delete a book by providing its ID in the URL.
 
 ## Installation
 

@@ -2,7 +2,6 @@
 const express = require("express");
 // Import the custom errorHandler middleware
 const { errorHandler } = require("./middlewares/errorMiddleware");
-// Import the products data
 
 const dotenv = require("dotenv");
 // Import the database connection function
@@ -23,7 +22,7 @@ app.use(express.json());
 
 // Default route to display a welcome message
 app.get("/", (req, res) => {
-  res.send("<h1>Welcome to Node Server</h1>");
+  res.send("<h1>Welcome to BrewApps Node Server</h1>");
 });
 app.use("/book", bookRoutes);
 

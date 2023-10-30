@@ -27,7 +27,8 @@ To set up and run this application locally, follow these steps:
 2. Install Dependencies :
     ```sh
     npm install
-## 3. Make .env File : ### Copy all the details of .env.dev into .env file
+## 3. Make .env File : 
+   ### Copy all the details of .env.dev into .env file
 4. Start the Application:
     ```sh
     npm start

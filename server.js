@@ -26,10 +26,6 @@ app.get("/", (req, res) => {
 });
 app.use("/book", bookRoutes);
 
-// Route handling for bonus task-related API endpoints (commented out)
-// app.use("/api/search", bonusTaskRoutes);
-
-// Apply the custom errorHandler middleware to handle errors
 app.use(errorHandler);
 
 // Define the port on which the server will listen

@@ -14,9 +14,12 @@ This Node.js application provides a RESTful API for managing books. It allows yo
 
 - **DELETE /book/deleteBookByID/:id**: Delete a book by providing its ID in the URL.
 
-## Instructions to Set Up and Run the Application Locally
+## Installation
 
-To run this application on your local machine, follow these steps:
+To set up and run this application locally, follow these steps:
 
 1. Clone the GitHub repository:
 
+   ```sh
+   git clone <repository_url>
+   cd <repository_directory>
